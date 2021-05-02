@@ -4,3 +4,5 @@
 
 - Kerala has 140 MLA seats. NDA didn't open account this time!
 
+![Plot](https://github.com/rahulvenugopal/Election_2021/blob/main/images/Election_Kerala.jpeg)
+Code is [here](https://github.com/rahulvenugopal/Election_2021/blob/main/kerala_viz.R)
