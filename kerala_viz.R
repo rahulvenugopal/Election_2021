@@ -9,7 +9,7 @@ library(tidyverse)
 
 
 # loading data
-df<-read_csv("kerala_elections.csv")
+df<-read_csv("data/kerala_elections.csv")
 
 df1<-df%>%group_by(Party)%>%summarise(Seats=sum(Seats))%>%arrange(Seats)
 df1$legend <- paste0(df1$Party," (", df1$Seats,")")
